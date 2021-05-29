@@ -1,0 +1,4 @@
+SELECT c.CustomerID, c.CustomerName , o.OrderID FROM Customers c, Orders o where o.CustomerID = c.CustomerID ;
+
+SELECT c.CustomerID, c.CustomerName , o.OrderID FROM Customers c left join Orders o on o.CustomerID = c.CustomerID ;
+
